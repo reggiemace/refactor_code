@@ -1,143 +1,138 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
-    position: absolute;
+  background-color: #d9dcd6;
+  position: absolute;
 }
 /* added header selector to match HTML*/
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-      width: 100%
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  width: 100%;
 }
 /* setting the font size and display style for h1 header */
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 /* color to the span element within the h1 tag */
 header h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 /* navigation set to float to right of page */
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-   
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 /* setting list style*/
 header nav ul {
-    list-style-type: none;
-
+  list-style-type: none;
 }
 /* setting margins of list items and displaying inline */
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-} 
+  display: inline-block;
+  margin-left: 25px;
+}
 /* set color of link text and decoration */
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 /* setting all paragraph tags to 16px */
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 /* setting the hero image to fit page */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 /* setting float selectors for left and right positioned images */
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
-Develop/assets/images/digital-marketing-meeting.jpg
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 /* setting the width and display order of the main as well as setting margins */
 main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-   
-
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 /* setting position of main section elements */
-main section{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+main section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 /* setting the max-height for all images in main sections */
 main section img {
-    max-height: 200px;
+  max-height: 200px;
 }
+
 /* setting the border and font size of main sections h2 elements */
 main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;  
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 /* setting the position of the aside section */
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    position: relative;
+  margin-right: 20px;
+  padding: 20px;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+  position: relative;
 }
 /* setting the color and bottom margin of aside section */
 aside section {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 /* added semantic aside tag  w/ section and h3 tags */
-aside section h3{
-    margin-bottom: 10px;
-    text-align: center;
-    
+aside section h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 /* added sematic aside tag  w/ section and img tag */
 aside section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 /* added semantic footer tag */
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 /* added semantic footer tag  w/ h2 tag*/
 footer h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* .benefit-lead {
@@ -241,5 +236,3 @@ footer h2 {
     margin-bottom: 20px;
     font-size: 36px;
 } */
-
-
